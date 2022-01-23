@@ -1,0 +1,112 @@
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    .imag img {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .navbar-toggler {
+        border: none;
+    }
+    
+    .nav-item {
+        font-weight: 500;
+        color: black;
+    }
+    
+    .d-flex {
+        margin-left: 50px;
+    }
+    
+    .audio {
+        width: 50px;
+        height: 20px;
+        margin-left: 100px;
+        margin-top: -5px;
+    }
+    
+    .audio img {
+        width: 120px;
+        height: 20px;
+    }
+    
+    .banner {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .pictur {
+        background-color: #f2f2f2;
+    }
+    
+    .input-group {
+        width: 50%;
+    }
+    
+    .footer h5 {
+        font-size: 18px;
+    }
+    
+    .footer p {
+        font-size: 12px;
+    }
+    
+    .icon i {
+        padding-right: 50px;
+        float: right;
+    }
+    
+    @media (max-width:1399px) {
+        .me-2 {
+            margin-right: -3.5rem !important;
+        }
+    }
+    
+    @media (max-width:1365px) {
+        .navbar-nav {
+            font-size: 12px;
+        }
+        .me-2 {
+            margin-right: -3.5rem !important;
+        }
+    }
+    
+    @media (max-width:1023px) {
+        .navbar-nav {
+            font-size: 14px;
+        }
+        .carousel-indicators [data-bs-target] {
+            width: 15px;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .navbar-nav {
+            font-size: 12px;
+        }
+    }
+    
+    @media (max-width:300px) {
+        .imag img {
+            width: 50px;
+            height: 50px;
+            padding-left: 10px;
+        }
+        .navbar-nav {
+            font-size: 12px;
+        }
+        .navbar-toggler-icon {
+            width: 0.5em;
+            height: 0.5em;
+        }
+        .input-group input,
+        button,
+        select,
+        optgroup,
+        textarea {
+            margin: -20px;
+            font-size: 6px;
+        }
+        .carousel-indicators [data-bs-target] {
+            width: 10px;
+        }
+    }
